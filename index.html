@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Reading Challenge Only For You</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+  <div class="container">
+    <h1 id="challenge-title"> Reading Challenge</h1>
+    <div class="author-section">
+    <input type="text" id="author-input" placeholder="Enter an author name..." />
+    <button onclick="startChallenge()">Start Challenge</button>
+    </div>
+    <div class="action-buttons">
+      <button onclick="showSummary()">Show Progress</button>
+      <button onclick="resetProgress()">Reset Progress</button>
+    </div>
+    <ul id="book-list" class="book-grid"></ul>
+  </div>
+  <script src="renderer.js"></script>
+</body>
+</html>
+
+
